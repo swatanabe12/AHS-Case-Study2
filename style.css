@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+p {
+    font-size: 16px;
+}
+.navBar {
+    display: flex;
+    padding: 5 80;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navLinks {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins';
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.nav-item {
+    padding: 10px;
+}
+.nav-item:hover {
+    color: #fd7272;
+}
+
+button {
+    padding: 8px 14px;
+    background-color: #fd7272;
+    color: white;
+    border: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta {
+    margin-left: 20px;
+}
+
+button:hover {
+    padding: 8px 16px;
+    background-color: white;
+    color: #fd7272;
+    border: #fd7272;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.shLogo {
+    height: 50px;
+    margin: 20px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding-top: 50px;
+}
+
+.display-4 {
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+}
+
+.lead {
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    color: #209DE2;
+    font-weight: 600;
+}
+
+.boldBlack {
+    font-weight: 600;
+}
+
+
+.ahs-pic {
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.scope {
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+/* Overview */
+.overview {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(62,255,232);
+    background: linear-gradient(90deg, rgba(62,255,232,0.3735407686781609) 0%, rgba(255,255,255,0.3764143318965517) 53%, rgba(88,217,254,0.431012033045977) 94%);
+}
+
+.whiteBackground {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.content {
+    margin: 50px;
+    font-family: 'poppins';
+}
+
+.paragraphTitle {
+    font-size: 22pt;
+}
+
+/* Research */
+.accordion {
+    padding-top: 100px;
+    max-width: 100px;
+    padding-left: 100px;
+
+}
+.btn {
+    font-family: 'poppins';
+}
+
+.designProcess {
+    width: 800px;
+}
+
+
+
+
